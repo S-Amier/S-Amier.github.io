@@ -18,7 +18,8 @@ body {
     line-height: 1;
     font-weight: 400;
     color: white;
-    background-color: rgb(84, 216, 187);
+    background: url('images/coding.png') no-repeat center center fixed;
+    background-size:cover;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -280,7 +281,7 @@ strong {
 /****************************/
 
 .section-slogan {
-    background-image: url(images/coding-background.png);
+    background-image: url('images/coding.png');
     padding: 4.8rem 0 9.6rem 0;
     size: 100%;
 }
