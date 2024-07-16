@@ -9,57 +9,49 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&display=swap"
-      rel="stylesheet"
-    />
-
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&family=Roboto+Condensed:ital,wght@0,300;0,400;1,400&display=swap" 
+    rel="stylesheet"/>
     <link rel="stylesheet" href="style.css" />
     <title>Home</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header-container">
-            <img class="foto" alt="Foto" src="images/profile-picture.jpg" />
-            <span class="header-name" href="index.html">Shahferoz Amier</span>
-        </div>
-        <nav class="main-nav">
-          <ul class="main-nav-list">
-            <!-- Link naar home page -->
-            <li><a class="main-nav-link" href="index.html"><ion-icon name="home-outline"></ion-icon> Home</a></li>
-            <li><a class="main-nav-link" href="profile.html"><ion-icon name="person-outline"></ion-icon> Profile</a></li>
-            <li><a class="main-nav-link" href="experiences.html"><ion-icon name="ribbon-outline"></ion-icon> Experiences</a></li>
-            <li><a class="main-nav-link" href="projects.html"><ion-icon name="rocket-outline"></ion-icon> Projects</a></li>
-            <li><a class="main-nav-link nav-cta" href="contact.html"><ion-icon name="call-outline"></ion-icon> Contact</a></li>
-          </ul>
-        </nav>
-        
-    </header>
-      
-    <main>
-        <section class="section-slogan">
-            <div class="about-me">
-                <div class="about-me-text-box">
-                    <h1 class="heading-primary">
-                    Hi, I'm Shahferoz Amier
-                    </h1>
-                    <p class="short-description">
-                    A starting web developer specializing in front-end
-                    </p>
-                    <a href="contact.html" class="btn btn--full margin-right-sm"
-                    >Reach out!</a
-                    >
-                    <a href="profile.html" class="btn btn--outline">Learn more &rarr;</a>
-                </div>
-                <div class="hero-img-box">
-                    <img
-                        src="images/coding.png"
-                        class="coding-img"
-                        alt="Front end code language"
-                    />
-                </div>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-container">
+                <img class="foto" alt="Foto" src="images/profile-picture.jpg" />
+                <span class="header-name" href="index.html">Shahferoz Amier</span>
             </div>
-        </section>
-    </main>
+            <nav class="main-nav">
+                <ul class="main-nav-list">
+                <!-- Link naar home page -->
+                    <li><a class="main-nav-link" href="index.html"><ion-icon name="home-outline"></ion-icon> Home</a></li>
+                    <li><a class="main-nav-link" href="profile.html"><ion-icon name="person-outline"></ion-icon> Profile</a></li>
+                    <li><a class="main-nav-link" href="experiences.html"><ion-icon name="ribbon-outline"></ion-icon> Experiences</a></li>
+                    <li><a class="main-nav-link" href="projects.html"><ion-icon name="rocket-outline"></ion-icon> Projects</a></li>
+                    <li><a class="main-nav-link nav-cta" href="contact.html"><ion-icon name="call-outline"></ion-icon> Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="section-slogan">
+                    <div class="about-me">
+                        <div class="about-me-text-box">
+                            <h1 class="heading-primary">
+                            Hi, I'm Shahferoz Amier
+                            </h1>
+                            <p class="short-description">
+                            A starting web developer specializing in front-end
+                            </p>
+                            <a href="contact.html" class="btn btn--full margin-right-sm"
+                            >Reach out!</a
+                            >
+                            <a href="profile.html" class="btn btn--outline">Learn more &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
     <footer>
         <div class="grid--2-cols">
             <ul class="social-links">
@@ -75,7 +67,7 @@
                 <li>
                     <a href="#"><ion-icon class="social-instagram" name="logo-instagram"></ion-icon></a>
                 </li>
-                </ul>
+            </ul>
         </div>
         <div class="row">
             <p>Copyright &copy; 2024 by Shahferoz. All rights reserved.</p>
