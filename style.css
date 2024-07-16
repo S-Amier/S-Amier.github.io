@@ -19,7 +19,7 @@ body {
     font-weight: 400;
     color: white;
     background: url('images/coding.png') no-repeat center center fixed;
-    background-size:50% 100%;
+    background-size: 80% 100%;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -244,7 +244,7 @@ strong {
 
 .sidebar {
   width: 250px;
-  background: #333;
+  background-color: #353535;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -334,11 +334,6 @@ strong {
   background: rgba(0, 0, 0, 0.00);
   padding: 20px;
   border-radius: 10px;
-}
-  
-.short-description {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
 }
   
 .coding-img {
@@ -673,6 +668,8 @@ input[type=submit]:hover {
 /****************************/
 footer {
   padding: 20px;
+  color: #fff;
+  text-align: center;
 }
 
 .footer-nav {
@@ -682,12 +679,14 @@ footer {
 
 .social-links {
   list-style: none;
-  float: right;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 20px 0 10px 0;
 }
 
 .footer-nav li,
 .social-links li {
-  display: inline-block;
   margin-right: 20px;
 }
 
@@ -729,4 +728,3 @@ footer p:hover,
 footer p:active {
   color: #5eead4;
 }
-
