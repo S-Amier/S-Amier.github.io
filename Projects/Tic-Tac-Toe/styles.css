@@ -40,17 +40,17 @@ body {
 }
 
 .cell:nth-child(3n +1) {
-    border-right: none;
+    border-left: none;
 }
 
 .cell:nth-child(3n +3) {
-    border-left: none;
+    border-right: none;
 }
 
 .cell:last-child,
 .cell:nth-child(8),
 .cell:nth-child(7) {
-    border-top: none;
+    border-bottom: none;
 }
 
 .cell.x,
@@ -91,13 +91,12 @@ body {
 }
 
 .cell.circle::before,
-.cell.circle::after
+.cell.circle::after,
 .board.circle .cell:not(.x):not(.circle):hover::before,
 .board.circle .cell:not(.x):not(.circle):hover::after {
     content: '';
     position: absolute;
     border-radius: 50%;
-    /* background-color: black; */
 }
 
 .cell.circle::before,
@@ -121,11 +120,11 @@ body {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, .9);
-    display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-size: 5rem;
+    flex-direction: column;
 }
 
 .winning-message button {
